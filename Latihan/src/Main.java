@@ -16,6 +16,6 @@ public class Main {
         sehatSelalu.tampilkanRuangan();
         sehatSelalu.daftarDokter();
 
-        sehatSelalu = null;
+        sehatSelalu = null;                                                                                                                                                                                                                                                                 
     }
 }
