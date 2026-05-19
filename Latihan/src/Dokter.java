@@ -16,6 +16,14 @@ public class Dokter {
         return this.pasien;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
+    public String getSpesialisasi() {
+        return this.spesialisasi;
+    }
+
     public void periksaPasien(Pasien pasien) {
         System.out.println("Dokter " + this.name + "dengan spesialisasi " + this.spesialisasi + " sedang memeriksa pasien " + pasien.getName() + " dengan umur " + pasien.getUmur());
     }
