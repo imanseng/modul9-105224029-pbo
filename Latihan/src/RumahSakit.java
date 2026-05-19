@@ -3,13 +3,13 @@ import java.util.ArrayList;
 public class RumahSakit {
     private String name;
     private final Ruangan[] daftarRuangan;
-    private ArrayList<Dokter> daftarDokter;
+    private ArrayList<Dokter> daftarDokter = new ArrayList<>();
 
-    public RumahSakit(String name, Ruangan[] daftRuangan) {
+    public RumahSakit(String name) {
         this.name = name;
         this.daftarRuangan = new Ruangan[2];
-        this.daftarRuangan[0] = daftRuangan[0];
-        this.daftarRuangan[1] = daftRuangan[1];
+        this.daftarRuangan[0] = new Ruangan("A", 10);
+        this.daftarRuangan[1] = new Ruangan("B", 20);
     }
 
     public String getName() {
